@@ -1,16 +1,16 @@
-2024-05-18T11:22:37.372+05:30  INFO 18724 --- [kafkaconsumer] [main] c.k.k.KafkaconsumerApplication           : Starting KafkaconsumerApplication v0.0.1-SNAPSHOT using Java 19.0.2 with PID 18724 (C:\Users\chinm\Downloads\kafkaconsumer\kafkaconsumer\build\libs\kafkaconsumer-0.0.1-SNAPSHOT.jar started by chinm in C:\Users\chinm\Downloads\kafkaconsumer\kafkaconsumer)
-2024-05-18T11:22:37.386+05:30  INFO 18724 --- [kafkaconsumer] [main] c.k.k.KafkaconsumerApplication           : No active profile set, falling back to 1 default profile: "default"
-2024-05-18T11:22:39.062+05:30  INFO 18724 --- [kafkaconsumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9999 (http)
-2024-05-18T11:22:39.081+05:30  INFO 18724 --- [kafkaconsumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-18T11:22:39.082+05:30  INFO 18724 --- [kafkaconsumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-05-18T11:22:39.169+05:30  INFO 18724 --- [kafkaconsumer] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-18T11:22:39.170+05:30  INFO 18724 --- [kafkaconsumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1650 ms
-2024-05-18T11:22:40.044+05:30  INFO 18724 --- [kafkaconsumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9999 (http) with context path ''
-2024-05-18T11:22:40.074+05:30  INFO 18724 --- [kafkaconsumer] [main] c.k.k.KafkaconsumerApplication           : Started KafkaconsumerApplication in 3.486 seconds (process running for 4.45)
-2024-05-18T11:22:49.910+05:30  INFO 18724 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-18T11:22:49.912+05:30  INFO 18724 --- [kafkaconsumer] [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-18T11:22:49.916+05:30  INFO 18724 --- [kafkaconsumer] [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-18T11:22:50.456+05:30  INFO 18724 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+2024-06-18T09:37:17.091+05:30  INFO 20172 --- [kafkaconsumer] [main] c.k.k.KafkaconsumerApplication           : Starting KafkaconsumerApplication v0.0.1-SNAPSHOT using Java 19.0.2 with PID 20172 (C:\Users\chinm\Downloads\kafkaconsumer\kafkaconsumer\build\libs\kafkaconsumer-0.0.1-SNAPSHOT.jar started by chinm in C:\Users\chinm\Downloads\kafkaconsumer\kafkaconsumer)
+2024-06-18T09:37:17.104+05:30  INFO 20172 --- [kafkaconsumer] [main] c.k.k.KafkaconsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-06-18T09:37:18.586+05:30  INFO 20172 --- [kafkaconsumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9999 (http)
+2024-06-18T09:37:18.603+05:30  INFO 20172 --- [kafkaconsumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-18T09:37:18.604+05:30  INFO 20172 --- [kafkaconsumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-18T09:37:18.667+05:30  INFO 20172 --- [kafkaconsumer] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-18T09:37:18.668+05:30  INFO 20172 --- [kafkaconsumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1418 ms
+2024-06-18T09:37:19.314+05:30  INFO 20172 --- [kafkaconsumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9999 (http) with context path ''
+2024-06-18T09:37:19.331+05:30  INFO 20172 --- [kafkaconsumer] [main] c.k.k.KafkaconsumerApplication           : Started KafkaconsumerApplication in 2.812 seconds (process running for 3.468)
+2024-06-18T09:37:51.877+05:30  INFO 20172 --- [kafkaconsumer] [http-nio-9999-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-18T09:37:51.879+05:30  INFO 20172 --- [kafkaconsumer] [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-18T09:37:51.885+05:30  INFO 20172 --- [kafkaconsumer] [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-06-18T09:37:52.395+05:30  INFO 20172 --- [kafkaconsumer] [http-nio-9999-exec-2] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.include.jmx.reporter = true
@@ -104,318 +104,46 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2024-05-18T11:22:51.143+05:30  INFO 18724 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
-2024-05-18T11:22:51.148+05:30  INFO 18724 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
-2024-05-18T11:22:51.150+05:30  INFO 18724 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1716011571140
-2024-05-18T11:22:51.173+05:30  INFO 18724 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Subscribed to topic(s): xyz
-2024-05-18T11:22:51.174+05:30  INFO 18724 --- [kafkaconsumer] [http-nio-9999-exec-1] c.k.k.Service.KafkaConsumerService       : Kafka consumer started for topic: xyz
-2024-05-18T11:22:53.291+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Cluster ID: YeWbC3sNTgufM5uKirf0OA
-2024-05-18T11:22:53.320+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Discovered group coordinator CHINMAY09:9092 (id: 2147483647 rack: null)
-2024-05-18T11:22:53.449+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] (Re-)joining group
-2024-05-18T11:22:53.663+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Request joining group due to: need to re-join with the given member-id: consumer-dynamic-consumer-1-ccc63bbf-1fe7-414e-a051-dba120362452
-2024-05-18T11:22:53.664+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
-2024-05-18T11:22:53.666+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] (Re-)joining group
-2024-05-18T11:22:54.454+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Successfully joined group with generation Generation{generationId=2, memberId='consumer-dynamic-consumer-1-ccc63bbf-1fe7-414e-a051-dba120362452', protocol='range'}
-2024-05-18T11:22:54.604+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Successfully synced group in generation Generation{generationId=2, memberId='consumer-dynamic-consumer-1-ccc63bbf-1fe7-414e-a051-dba120362452', protocol='range'}
-2024-05-18T11:22:54.619+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Notifying assignor about the new Assignment(partitions=[xyz-0])
-2024-05-18T11:22:54.626+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Adding newly assigned partitions: xyz-0
-2024-05-18T11:22:54.734+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Setting offset for partition xyz-0 to the committed offset FetchPosition{offset=266, offsetEpoch=Optional[0], currentLeader=LeaderAndEpoch{leader=Optional[CHINMAY09:9092 (id: 0 rack: null)], epoch=0}}
-2024-05-18T11:23:06.920+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-18T11:23:07.129+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1694843f
-2024-05-18T11:23:07.131+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-18T11:23:07.178+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:23:07.180+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:23:07.186+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:23:07.186+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "state" : "31",
-  "placedetails" : "JH",
-  "stateid" : "290f74c3-eb85-461d-8fd6-fde4036527ae",
-  "placeName" : "Jharkhand",
-  "placeId" : "Betla National Park",
-  "searchId" : "Oldest national park in Jharkhand"
+2024-06-18T09:37:53.278+05:30  INFO 20172 --- [kafkaconsumer] [http-nio-9999-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2024-06-18T09:37:53.282+05:30  INFO 20172 --- [kafkaconsumer] [http-nio-9999-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2024-06-18T09:37:53.283+05:30  INFO 20172 --- [kafkaconsumer] [http-nio-9999-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1718683673274
+2024-06-18T09:37:53.290+05:30  INFO 20172 --- [kafkaconsumer] [http-nio-9999-exec-2] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Subscribed to topic(s): abc
+2024-06-18T09:37:53.291+05:30  INFO 20172 --- [kafkaconsumer] [http-nio-9999-exec-2] c.k.k.Service.KafkaConsumerService       : Kafka consumer started for topic: abc
+2024-06-18T09:37:54.762+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Cluster ID: YeWbC3sNTgufM5uKirf0OA
+2024-06-18T09:37:54.788+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Discovered group coordinator CHINMAY09:9092 (id: 2147483647 rack: null)
+2024-06-18T09:37:54.828+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] (Re-)joining group
+2024-06-18T09:37:55.557+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Request joining group due to: need to re-join with the given member-id: consumer-dynamic-consumer-1-f8294e46-e4d3-4d55-812a-ec12b45c0950
+2024-06-18T09:37:55.561+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-06-18T09:37:55.563+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] (Re-)joining group
+2024-06-18T09:37:55.708+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Successfully joined group with generation Generation{generationId=1, memberId='consumer-dynamic-consumer-1-f8294e46-e4d3-4d55-812a-ec12b45c0950', protocol='range'}
+2024-06-18T09:37:55.763+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Finished assignment for group at generation 1: {consumer-dynamic-consumer-1-f8294e46-e4d3-4d55-812a-ec12b45c0950=Assignment(partitions=[abc-0])}
+2024-06-18T09:37:56.045+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Successfully synced group in generation Generation{generationId=1, memberId='consumer-dynamic-consumer-1-f8294e46-e4d3-4d55-812a-ec12b45c0950', protocol='range'}
+2024-06-18T09:37:56.047+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Notifying assignor about the new Assignment(partitions=[abc-0])
+2024-06-18T09:37:56.051+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Adding newly assigned partitions: abc-0
+2024-06-18T09:37:56.106+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Found no committed offset for partition abc-0
+2024-06-18T09:37:56.164+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Resetting offset for partition abc-0 to position FetchPosition{offset=519, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[CHINMAY09:9092 (id: 0 rack: null)], epoch=0}}.
+2024-06-18T09:38:04.702+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-18T09:38:04.960+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@72286d6e
+2024-06-18T09:38:04.962+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-18T09:38:05.036+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_abc already exists............
+2024-06-18T09:38:05.037+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
+2024-06-18T09:38:05.052+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
+2024-06-18T09:38:05.052+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = abc: value={
+  "placedetails" : "Symbol of love and UNESCO World Heritage Site",
+  "searchId" : "TRV_EXP_SR_ID-0c8ce3e7-c571-4533-8ed8-8454228f46a7",
+  "state" : "Uttar Pradesh",
+  "placeId" : "86",
+  "stateid" : "UP",
+  "placeName" : "Taj Mahal"
 }
-2024-05-18T11:26:56.845+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:26:56.873+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:26:56.911+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:26:56.912+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placeId" : "Betla National Park",
-  "stateid" : "1276d65c-c50d-4e66-9734-113704eab0a0",
-  "searchId" : "Oldest national park in Jharkhand",
-  "state" : "31",
-  "placeName" : "Jharkhand",
-  "placedetails" : "JH"
+2024-06-18T09:41:32.893+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_abc already exists............
+2024-06-18T09:41:32.898+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
+2024-06-18T09:41:32.902+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
+2024-06-18T09:41:32.942+05:30  INFO 20172 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = abc: value={
+  "placedetails" : "Symbol of love and UNESCO World Heritage Site",
+  "searchId" : "TRV_EXP_SR_ID-75abfb08-02c8-40a2-b8a2-939073b3e521",
+  "state" : "Uttar Pradesh",
+  "placeId" : "86",
+  "stateid" : "UP",
+  "placeName" : "Taj Mahal"
 }
-2024-05-18T11:28:05.423+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:28:05.424+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:28:05.605+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:28:05.606+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placeId" : "Betla National Park",
-  "stateid" : "64946e3e-f56c-4929-81bf-524bb355f96d",
-  "searchId" : "Oldest national park in Jharkhand",
-  "state" : "31",
-  "placeName" : "Jharkhand",
-  "placedetails" : "JH"
-}
-2024-05-18T11:28:34.502+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:28:34.503+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:28:34.505+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:28:34.506+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placeId" : "Oldest national park in Jharkhand",
-  "stateid" : "143f2ce8-7a3f-4c85-bb24-2144ea17d23f",
-  "searchId" : "Jharkhand",
-  "state" : "31",
-  "placeName" : "JH",
-  "placedetails" : "Betla National Park"
-}
-2024-05-18T11:31:26.657+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:31:26.659+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:31:26.661+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:31:26.662+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "Betla National Park",
-  "searchId" : "Jharkhand",
-  "state" : "31",
-  "placeId" : "Oldest national park in Jharkhand",
-  "stateid" : "aa8c8064-5c08-4ca2-b159-0e7a21a0c2b7",
-  "placeName" : "JH"
-}
-2024-05-18T11:31:53.472+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Node -1 disconnected.
-2024-05-18T11:33:37.730+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:33:37.731+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:33:37.733+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:33:37.733+05:30  INFO 18724 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "Oldest national park in Jharkhand",
-  "searchId" : "JH",
-  "state" : "Jharkhand",
-  "placeId" : "31",
-  "stateid" : "7b1bc47d-e25c-464d-af43-7c2518886fe8",
-  "placeName" : "Betla National Park"
-}
-2024-05-18T11:34:50.531+05:30  INFO 18724 --- [kafkaconsumer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-18T11:34:50.573+05:30  INFO 18724 --- [kafkaconsumer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-18T11:47:26.535+05:30  INFO 18808 --- [kafkaconsumer] [main] c.k.k.KafkaconsumerApplication           : Starting KafkaconsumerApplication v0.0.1-SNAPSHOT using Java 19.0.2 with PID 18808 (C:\Users\chinm\Downloads\kafkaconsumer\kafkaconsumer\build\libs\kafkaconsumer-0.0.1-SNAPSHOT.jar started by chinm in C:\Users\chinm\Downloads\kafkaconsumer\kafkaconsumer)
-2024-05-18T11:47:26.548+05:30  INFO 18808 --- [kafkaconsumer] [main] c.k.k.KafkaconsumerApplication           : No active profile set, falling back to 1 default profile: "default"
-2024-05-18T11:47:32.905+05:30  INFO 18808 --- [kafkaconsumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9999 (http)
-2024-05-18T11:47:32.986+05:30  INFO 18808 --- [kafkaconsumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-18T11:47:32.998+05:30  INFO 18808 --- [kafkaconsumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-05-18T11:47:33.208+05:30  INFO 18808 --- [kafkaconsumer] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-05-18T11:47:33.211+05:30  INFO 18808 --- [kafkaconsumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6293 ms
-2024-05-18T11:47:35.575+05:30  INFO 18808 --- [kafkaconsumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9999 (http) with context path ''
-2024-05-18T11:47:35.643+05:30  INFO 18808 --- [kafkaconsumer] [main] c.k.k.KafkaconsumerApplication           : Started KafkaconsumerApplication in 11.041 seconds (process running for 13.047)
-2024-05-18T11:47:45.311+05:30  INFO 18808 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-18T11:47:45.312+05:30  INFO 18808 --- [kafkaconsumer] [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-18T11:47:45.315+05:30  INFO 18808 --- [kafkaconsumer] [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-18T11:47:45.471+05:30  INFO 18808 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
-	allow.auto.create.topics = true
-	auto.commit.interval.ms = 5000
-	auto.include.jmx.reporter = true
-	auto.offset.reset = latest
-	bootstrap.servers = [localhost:9092]
-	check.crcs = true
-	client.dns.lookup = use_all_dns_ips
-	client.id = consumer-dynamic-consumer-1
-	client.rack = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = true
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = dynamic-consumer
-	group.instance.id = null
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	internal.throw.on.fetch.stable.offset.unsupported = false
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.connect.timeout.ms = null
-	sasl.login.read.timeout.ms = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.login.retry.backoff.max.ms = 10000
-	sasl.login.retry.backoff.ms = 100
-	sasl.mechanism = GSSAPI
-	sasl.oauthbearer.clock.skew.seconds = 30
-	sasl.oauthbearer.expected.audience = null
-	sasl.oauthbearer.expected.issuer = null
-	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
-	sasl.oauthbearer.jwks.endpoint.url = null
-	sasl.oauthbearer.scope.claim.name = scope
-	sasl.oauthbearer.sub.claim.name = sub
-	sasl.oauthbearer.token.endpoint.url = null
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	session.timeout.ms = 45000
-	socket.connection.setup.timeout.max.ms = 30000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2024-05-18T11:47:45.788+05:30  INFO 18808 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
-2024-05-18T11:47:45.791+05:30  INFO 18808 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
-2024-05-18T11:47:45.792+05:30  INFO 18808 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1716013065781
-2024-05-18T11:47:45.797+05:30  INFO 18808 --- [kafkaconsumer] [http-nio-9999-exec-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Subscribed to topic(s): xyz
-2024-05-18T11:47:45.797+05:30  INFO 18808 --- [kafkaconsumer] [http-nio-9999-exec-1] c.k.k.Service.KafkaConsumerService       : Kafka consumer started for topic: xyz
-2024-05-18T11:47:48.247+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Cluster ID: YeWbC3sNTgufM5uKirf0OA
-2024-05-18T11:47:48.254+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Discovered group coordinator CHINMAY09:9092 (id: 2147483647 rack: null)
-2024-05-18T11:47:48.336+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] (Re-)joining group
-2024-05-18T11:47:48.622+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Request joining group due to: need to re-join with the given member-id: consumer-dynamic-consumer-1-1a6eaeec-1cda-4067-aab2-64f4f2ecdc7c
-2024-05-18T11:47:48.623+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
-2024-05-18T11:47:48.624+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] (Re-)joining group
-2024-05-18T11:47:48.651+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Successfully joined group with generation Generation{generationId=4, memberId='consumer-dynamic-consumer-1-1a6eaeec-1cda-4067-aab2-64f4f2ecdc7c', protocol='range'}
-2024-05-18T11:47:48.666+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Finished assignment for group at generation 4: {consumer-dynamic-consumer-1-1a6eaeec-1cda-4067-aab2-64f4f2ecdc7c=Assignment(partitions=[xyz-0])}
-2024-05-18T11:47:48.698+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Successfully synced group in generation Generation{generationId=4, memberId='consumer-dynamic-consumer-1-1a6eaeec-1cda-4067-aab2-64f4f2ecdc7c', protocol='range'}
-2024-05-18T11:47:48.701+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Notifying assignor about the new Assignment(partitions=[xyz-0])
-2024-05-18T11:47:48.715+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Adding newly assigned partitions: xyz-0
-2024-05-18T11:47:48.900+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-dynamic-consumer-1, groupId=dynamic-consumer] Setting offset for partition xyz-0 to the committed offset FetchPosition{offset=272, offsetEpoch=Optional[0], currentLeader=LeaderAndEpoch{leader=Optional[CHINMAY09:9092 (id: 0 rack: null)], epoch=0}}
-2024-05-18T11:47:49.099+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-18T11:47:49.637+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@167a741
-2024-05-18T11:47:49.646+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-18T11:47:49.713+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:47:49.715+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:47:49.721+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:47:49.722+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "Oldest national park in Jharkhand",
-  "searchId" : "JH",
-  "state" : "Jharkhand",
-  "placeId" : "31",
-  "stateid" : "07398bae-25e5-4719-8908-d18500eb7b46",
-  "placeName" : "Betla National Park"
-}
-2024-05-18T11:47:49.727+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:47:49.729+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:47:49.731+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:47:49.731+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "Oldest national park in Jharkhand",
-  "stateid" : "ffa2b3b6-b6f0-48ab-a63d-4b788f8c2d07",
-  "state" : "Jharkhand",
-  "placeId" : "31",
-  "searchId" : "JH",
-  "placeName" : "Betla National Park"
-}
-2024-05-18T11:47:49.735+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:47:49.736+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:47:49.738+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:47:49.739+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "Oldest national park in Jharkhand",
-  "stateid" : "7d357d14-f43f-4792-9d25-9b4efe042335",
-  "state" : "Jharkhand",
-  "placeId" : "31",
-  "searchId" : "JH",
-  "placeName" : "Betla National Park"
-}
-2024-05-18T11:47:49.744+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:47:49.746+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:47:49.748+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:47:49.749+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "Oldest national park in Jharkhand",
-  "stateid" : "8a93c053-ff10-4220-ba0b-8147a244c436",
-  "state" : "Jharkhand",
-  "placeId" : "31",
-  "searchId" : "JH",
-  "placeName" : "Betla National Park"
-}
-2024-05-18T11:47:49.754+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:47:49.755+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:47:49.758+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:47:49.758+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "Oldest national park in Jharkhand",
-  "stateid" : "5f40fa3e-34c3-493c-adec-6d5390180f66",
-  "state" : "Jharkhand",
-  "placeId" : "31",
-  "searchId" : "JH",
-  "placeName" : "Betla National Park"
-}
-2024-05-18T11:47:49.764+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:47:49.765+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:47:49.766+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:47:49.766+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "Oldest national park in Jharkhand",
-  "stateid" : "9e6f9e57-5958-46d4-8adb-5865594f8ef2",
-  "state" : "Jharkhand",
-  "placeId" : "31",
-  "searchId" : "JH",
-  "placeName" : "Betla National Park"
-}
-2024-05-18T11:47:49.793+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:47:49.886+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:47:49.891+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:47:49.894+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "A beautiful city",
-  "stateid" : "64e03f77-1a38-4a80-9d5c-41630bc93e66",
-  "state" : "Odisha",
-  "placeId" : "92",
-  "searchId" : "OD",
-  "placeName" : "Rairangpur"
-}
-2024-05-18T11:47:49.900+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:47:49.901+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:47:49.904+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:47:49.904+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "A beautiful city",
-  "searchId" : "OD",
-  "state" : "Odisha",
-  "placeId" : "92",
-  "stateid" : "356f9922-2eaf-473a-bb21-222156807e12",
-  "placeName" : "Rairangpur"
-}
-2024-05-18T11:47:49.909+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : table_xyz already exists............
-2024-05-18T11:47:49.910+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data......
-2024-05-18T11:47:49.912+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Db.DynamicTableService             : Inserting Data Done......
-2024-05-18T11:47:49.912+05:30  INFO 18808 --- [kafkaconsumer] [Thread-1] c.k.k.Service.KafkaConsumerService       : Received message from topic = xyz: value={
-  "placedetails" : "A beautiful city",
-  "searchId" : "05047f72-e718-4242-a78d-9fbe57470048",
-  "state" : "Odisha",
-  "placeId" : "92",
-  "stateid" : "OD",
-  "placeName" : "Rairangpur"
-}
-2024-05-18T11:48:20.806+05:30  INFO 18808 --- [kafkaconsumer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-18T11:48:20.860+05:30  INFO 18808 --- [kafkaconsumer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

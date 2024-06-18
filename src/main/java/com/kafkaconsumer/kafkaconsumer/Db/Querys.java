@@ -18,20 +18,20 @@ public class Querys {
 
     private String generateCreateTableQuery2(String tableName, JsonNode jsonNode) {
         StringBuilder createTableQuery = new StringBuilder(
-                "create table if not exit " + tableName + " (" + "id serial primary key, ");
+                "CREATE TABLE IF NOT EXISTS " + tableName + " (" + "id SERIAL PRIMARY KEY, ");
         try {
             Iterator<Map.Entry<String, JsonNode>> fields = jsonNode.fields();
             while (fields.hasNext()) {
                 Map.Entry<String, JsonNode> fieldEntry = fields.next();
                 String fieldName = fieldEntry.getKey();
-                createTableQuery.append(fieldName).append("varchar(255), ");
+                createTableQuery.append(fieldName).append(" VARCHAR(255), ");
             }
             createTableQuery.delete(createTableQuery.length() - 2, createTableQuery.length());
             createTableQuery.append(")");
 
             return createTableQuery.toString();
         } catch (Exception e) {
-            log.error("error = ", e);
+            log.error("Error generating CREATE TABLE query: ", e);
             return null;
         }
     }
@@ -41,8 +41,7 @@ public class Querys {
     }
 
     private String generateInsertDataQuery2(String tableName, JsonNode jsonNode) {
-        StringBuilder insertDataQuery = new StringBuilder("INSERT INTO " + tableName
-                + " (");
+        StringBuilder insertDataQuery = new StringBuilder("INSERT INTO " + tableName + " (");
         try {
             Iterator<Map.Entry<String, JsonNode>> fields = jsonNode.fields();
             while (fields.hasNext()) {
@@ -51,25 +50,22 @@ public class Querys {
                 insertDataQuery.append(fieldName).append(", ");
             }
 
-            insertDataQuery.delete(insertDataQuery.length() - 2,
-                    insertDataQuery.length());
+            insertDataQuery.delete(insertDataQuery.length() - 2, insertDataQuery.length());
             insertDataQuery.append(") VALUES (");
 
             fields = jsonNode.fields();
             while (fields.hasNext()) {
                 Map.Entry<String, JsonNode> fieldEntry = fields.next();
-                insertDataQuery.append("'").append(fieldEntry.getValue().asText()).append("' ,");
+                insertDataQuery.append("'").append(fieldEntry.getValue().asText()).append("', ");
             }
 
-            insertDataQuery.delete(insertDataQuery.length() - 2,
-                    insertDataQuery.length());
+            insertDataQuery.delete(insertDataQuery.length() - 2, insertDataQuery.length());
             insertDataQuery.append(")");
 
             return insertDataQuery.toString();
-
         } catch (Exception e) {
+            log.error("Error generating INSERT INTO query: ", e);
             return null;
         }
     }
-
 }

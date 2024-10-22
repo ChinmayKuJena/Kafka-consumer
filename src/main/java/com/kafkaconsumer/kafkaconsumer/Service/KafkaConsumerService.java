@@ -8,6 +8,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
 import com.kafkaconsumer.kafkaconsumer.Db.DynamicTableService;
 import com.kafkaconsumer.kafkaconsumer.config.ConsumerProperties;
 import java.time.Duration;
@@ -49,6 +51,22 @@ public class KafkaConsumerService {
                     for (ConsumerRecord<String, String> record : records) {
                         dynamicTableService.createTableAndInsert(topic, record.value());
                         logger.info("Received message from topic = {}: value={}", record.topic(), record.value());
+                        // this can be use for extrating values to a variables
+                        // try {
+                        // PlaceMessage placeMessage = objectMapper.readValue(record.value(),
+                        // PlaceMessage.class);
+                        // // Access individual fields
+                        // String placeName = placeMessage.getPlaceName();
+                        // String email = placeMessage.getEmail();
+                        // String id = placeMessage.getId();
+
+                        // logger.info("Received message: Place Name={}, Email={}, ID={}", placeName,
+                        // email, id);
+                        // } catch (JsonMappingException e) {
+                        // e.printStackTrace();
+                        // } catch (JsonProcessingException e) {
+                        // e.printStackTrace();
+                        // }
                     }
                 }
                 consumer.close();
@@ -58,7 +76,7 @@ public class KafkaConsumerService {
         } catch (Exception e) {
 
             logger.error("Error occurred while subscribing to topic: {}", topic, e);
-            logger.error("Error occurred while subscribing to topic: {}", topic, e);
+            // logger.error("Error occurred while subscribing to topic: {}", topic, e);
         }
     }
 
